@@ -1,13 +1,17 @@
  html {
      width: 1440px;
-     height: 6143px;
+     height: 6458.1px;
      box-sizing: border-box;
      margin: 0;
      padding: 0;
      background: #070E27;
+     scroll-behavior: smooth;
  }
 
- body {
+ body{
+     margin: 0;
+ }
+ .wrapper {
      margin: 0px 80px 0 80px;
  }
 
@@ -499,7 +503,224 @@ margin-top: 48px;
     margin-left: -110px;
  }
  /* end of how does it work */
+ /* pricing */
  .pricing-container{
     margin-top: 175px;
  }
+
+ .pricing-item{
+    display: flex;
+    height: 711px;
+    grid-gap: 40px;
+    justify-content: center;
+    margin-top: 195px;
+ }
+
+ .pricing-item1,
+ .pricing-item2,
+ .pricing-item3
+ {
+    width: 400px;
+height: 630px;
+
+
+background: #081131;
+
+box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+border-radius: 16px;
+ }
+
+ .pricing-wrapper{
+     display: flex;
+     flex-direction: column;
+     grid-gap: 48px;
+     margin-left: 48px;
+     margin-top: 48px;
+ }
+.dollars{
+    border-bottom: 2px solid #131D3E;
+width: 304px;
+}
+
+.benefit-tittle{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    
+    /* identical to box height, or 160% */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    
+    /* Gray/Gray 500 */
+    color: #7E8BB6;
+    margin: 0;
+}
+.benefit-num{
+display: flex;
+}
+
+.benefit-price,
+.benefit-price-num{
+    font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: -0.04em;
+color: #4E5A85;
+margin-top: 12px;
+}
+
+.benefit-price-num{
+    color: #FFFFFF;
+}
+.benefit-price[title~=0] {
+ color: #FFFFFF;
+}
+
+.benefit{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+}
+
+.benefit-item{
+    display: flex;
+    grid-gap: 12px;
+}
+
+#text-ben{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* identical to box height, or 150% */
+    letter-spacing: -0.01em;
+    
+    /* Gray/Gray 300 */
+    color: #CCD2E9;
+}
+
+ .pricing-item2{
+    margin-top: -80px;
+}
+
+.pricing-item3{
+     
+}
+
+.pricing-btn {
+    width: 178px;
+    height: 64px;
+    background: #4E5A85;
+    border-radius: 8px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Sora;
+}
+
+.pricing-btn-txt {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#pricing-arrow-btn {
+    width: 24px;
+    height: 24px;
+}
+ /* end of pricing */
+ /* pricing-cta */
+.pricing-cta-container{
+    margin: 98px 190px 0px 190px;
+}
+
+.pricing-cta-wrapper{
+    display: flex;
+    background-color: #0059F7;
+    border-radius: 16px;
+    height: 176px;
+    align-items: center;
+    grid-gap: 130px;
+}
+
+.pricing-cta-intro{
+    display: flex;
+grid-gap: 16px;
+flex-direction: column;
+margin-left: 56px;
+}
+
+.pricing-cta-intro-tittle{
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 4px;
+}
+
+.pricing-cta-intro-text{
+    font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+
+/* identical to box height, or 111% */
+letter-spacing: -0.03em;
+
+/* White */
+color: #FFFFFF;
+}
+.pricing-btn-cta {
+    width: 178px;
+    height: 64px;
+    background: #689EFF;
+    border-radius: 8px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Sora;
+}
+ /*  end of pricing cta*/
  /* end of main */
+
+ /* footer */
+    .footer-container{
+        margin-top: 132px;
+    }
+
+    .footer-wrapper{
+        height: 120px;
+        background-color: #162044;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 232px;
+    }
+
+    .social-media-wrap{
+        display: flex;
+        flex-direction: row;
+        grid-gap: 40px;
+    }
+   
+ /* end of footer */
