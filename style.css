@@ -103,268 +103,403 @@
      line-height: 24px;
      color: #FFFFFF;
  }
+
  /* end of hero */
+
  /* hero img dasboard */
 
- .hero-dasboard-container{
+ .hero-dasboard-container {
      display: flex;
      margin-top: 72px;
  }
 
- .chat-container-row{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-top: 162px;
-    margin-left: 314px;
- }
-
- #parm{
+ .chat-container-row {
+     display: flex;
+     flex-direction: column;
      position: absolute;
-    z-index: 1;
-    margin-top: 200px;
+     margin-top: 162px;
+     margin-left: 314px;
  }
 
- #dsb{
-    position: absolute;
-    z-index: 0;
+ #parm {
+     position: absolute;
+     z-index: 1;
+     margin-top: 200px;
  }
 
- #ch1{
+ #dsb {
+     position: absolute;
+     z-index: 0;
+ }
+
+ #ch1 {
      margin-bottom: 144px;
  }
 
- #ch3,
- #ch4{
+ #ch3, #ch4 {
      margin-bottom: 24px;
  }
 
- #ch2{
+ #ch2 {
      margin-left: 450px;
      position: absolute;
      margin-top: 284px;
  }
 
  /* end of img dasboard */
+
  /* brand */
 
- .brand-container{
-    display: flex;
-margin-top: 650px;
-grid-gap: 107px;
-border-bottom: 1.5px solid #4E5A85;
-justify-content: center;
-height: 224px;
-width: 1060px;
-margin-left: 108px;
+ .brand-container {
+     display: flex;
+     margin-top: 650px;
+     grid-gap: 107px;
+     border-bottom: 1.5px solid #4E5A85;
+     justify-content: center;
+     height: 224px;
+     width: 1060px;
+     margin-left: 108px;
  }
 
- .brand-item{
-    display: flex;
-    grid-gap: 107px;
-    justify-content: center;
+ .brand-item {
+     display: flex;
+     grid-gap: 107px;
+     justify-content: center;
  }
+
  /* end of brand */
+
  /* main */
+
  /* feature */
-.main-container-feature{
-    margin-left: 220px;
-    margin-right: 220px;
 
+ .main-container-feature {
+     margin-left: 220px;
+     margin-right: 220px;
+ }
+
+ .feature-container {
+     display: flex;
+     flex-direction: column;
+     margin-top: 96px;
+ }
+
+ .feature-tittle {
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 64px;
+     /* identical to box height, or 133% */
+     letter-spacing: -0.03em;
+     color: #FFFFFF;
+ }
+
+ .feature-intro {
+     width: 399px;
+     height: 64px;
+     left: 301px;
+     top: 1525px;
+     font-family: Sora;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.02em;
+     color: #7E8BB6;
+ }
+
+ .feature-menu-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 32px;
+ }
+
+ .feature-menu {
+     display: flex;
+     grid-gap: 40px;
+ }
+
+ .wraper {
+     display: flex;
+     width: 400px;
+     height: 288px;
+     border: 1px solid #162044;
+     border-radius: 16px;
+ }
+
+ .menu-1, .menu-2 {
+     display: flex;
+     flex-direction: column;
+     grid-gap: 40px;
+ }
+
+ .dasboard, .tailored-comment, .profile, .Comment, .Statistic, .Folders {
+     margin-left: 32px;
+     margin-top: 32px;
+ }
+
+ .dasboard-tittle, .tailored-comment-tittle, .profile-tittle, .Comment-tittle, .Statistic-tittle, .Folders-tittle {
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 32px;
+     letter-spacing: -0.02em;
+     color: #FFFFFF;
+     margin-bottom: 16px;
+ }
+
+ .dasboard-text, .tailored-comment-text, .profile-text, .Comment-text, .Statistic-text, .Folders-text {
+     font-family: Sora;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.01em;
+     color: #CCD2E9;
+     width: 336px;
+     height: 96px;
+ }
+
+ .cta-ready-container {
+     width: 840px;
+     height: 328px;
+     margin-top: 96px;
+     background: #0059F7;
+     border-radius: 24px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .cta-ready-wraper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .cta-ready-tittle {
+     /* Subheding Large */
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     /* identical to box height, or 160% */
+     text-align: center;
+     letter-spacing: 0.02em;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     opacity: 0.5;
+ }
+
+ .cta-ready-intro {
+     margin-top: 0px;
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 40px;
+     /* identical to box height, or 111% */
+     text-align: center;
+     letter-spacing: -0.03em;
+     /* White */
+     color: #FFFFFF;
+ }
+
+ .cta-ready-btn {
+     width: 178px;
+     height: 64px;
+     background: #689EFF;
+     border-radius: 8px;
+     border-style: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .btn-txt {
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     /* identical to box height, or 150% */
+     color: #FFFFFF;
+ }
+
+ #arrow-btn {
+     width: 24px;
+     height: 24px;
+ }
+
+ /* end of feature */
+
+ /* how does it work */
+
+ .how-does-it-work-container {
+     margin-left: 110px;
+     margin-top: 148px;
+     margin-right: 110px;
+ }
+
+ .hdiw-tittle-wrap {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .hdiw-tittle {
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     text-align: center;
+     letter-spacing: 0.02em;
+     text-transform: uppercase;
+     color: #7E8BB6;
+ }
+
+ .hdiw-intro {
+     margin-top: 0;
+     font-family: Sora;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 64px;
+     text-align: center;
+     letter-spacing: -0.03em;
+     color: #FFFFFF;
+ }
+
+ .hdiw-wraper {
+     display: flex;
+     flex-direction: column;
+     grid-gap: 160px;
+     margin-top: 96px;
+ }
+
+ .hdwi-item1,
+ .hdwi-item2,
+ .hdwi-item3{
+     display: flex;
+     grid-gap: 110px;
+ }
+
+ .hdwi-img {
+    margin-left: 103px;
 }
 
-.feature-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 96px;
-    
-}
-.feature-tittle{
-    font-family: Sora;
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 64px;
 
-/* identical to box height, or 133% */
-letter-spacing: -0.03em;
+ .hdwi-item-text {
+     display: flex;
+     flex-direction: column;
+     margin-top: 30px;
+     margin-left: 462px;;
+ }
 
-color: #FFFFFF;
-}
-.feature-intro{
-    width: 399px;
-height: 64px;
-left: 301px;
-top: 1525px;
-
-
-font-family: Sora;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 32px;
-
-
-letter-spacing: -0.02em;
-
-color: #7E8BB6;
-}
-
-
-.feature-menu-container{
-
-    display: flex;
-    justify-content: center;
-    margin-top: 32px;
-}
-
-.feature-menu{
-    display: flex;
-    grid-gap: 40px;
-}
-
-.wraper{
-display: flex;
-width: 400px;
-height: 288px;
-border: 1px solid #162044;
-border-radius: 16px;
-}
-
-.menu-1,
-.menu-2
-{
-    display: flex;
-    flex-direction: column;
-    grid-gap: 40px;
-}
-
-.dasboard,
-.tailored-comment,
-.profile,
-.Comment,
-.Statistic,
-.Folders
-{
-    margin-left: 32px;
-    margin-top: 32px;
-}
-
-.dasboard-tittle,
-.tailored-comment-tittle,
-.profile-tittle,
-.Comment-tittle,
-.Statistic-tittle,
-.Folders-tittle
-{
-    font-family: Sora;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
-
-.dasboard-text,
-.tailored-comment-text,
-.profile-text,
-.Comment-text,
-.Statistic-text,
-.Folders-text
-{
-font-family: Sora;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: -0.01em;
-color: #CCD2E9;
-width: 336px;
-height: 96px;
-}
-
-.cta-ready-container{
-    width: 840px;
-    height: 328px;
-    margin-top: 96px;
-    background: #0059F7;
-    border-radius: 24px;
-    display: flex;
-    justify-content: center;
-}
-
-.cta-ready-wraper{
-    display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-.cta-ready-tittle{
-/* Subheding Large */
-font-family: Sora;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 32px;
-
-/* identical to box height, or 160% */
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-
-opacity: 0.5;
-}
-.cta-ready-intro{
-    margin-top: 0px;
+ .hdwi-item-tittle{
     font-family: Sora;
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
 line-height: 40px;
-
-/* identical to box height, or 111% */
-text-align: center;
 letter-spacing: -0.03em;
 
-/* White */
 color: #FFFFFF;
-}
-.cta-ready-btn{
-    width: 178px;
-    height: 64px;
-    background: #689EFF;
-    border-radius: 8px;
-    border-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+ }
 
-.btn-txt{
-    font-family: Sora;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    /* identical to box height, or 150% */
-    
-    color: #FFFFFF;
-}
-#arrow-btn{
-    width: 24px;
-    height: 24px;
-}
- /* end of feature */
+ .hdwi-item-intro {
+     width: 400px;
+     height: 96px;
+     font-family: Sora;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.02em;
+     color: #7E8BB6;
+     margin-top: 0;
+ }
 
- .how-does-it-work-container{
-    margin-left: 110px;
-    margin-top: 148px;
+ #rect{
+     position: absolute;
+     z-index: 0;
+ }
+
+ #clc,
+ #cht-bx2,
+ #cht-bx{
+     position: absolute;
+     z-index: 1;
+ }
+
+ #clc{
+    margin-left: 367px;
+    margin-top: 62px;
+ }
+
+ #cht-bx2{
+    margin-left: -145px;
+    margin-top: 30px;
+ }
+
+ #cht-bx{
+    margin-top: 165px;
+    margin-left: 42px;
+ }
+
+ #ftr,
+ #cht-bx3,
+ #tkt,
+ #prms{
+     position: absolute;
+     z-index: 1;
+ }
+
+ #ftr{
+    margin-left: -32px;
+margin-top: 48px;
+ }
+
+ #cht-bx3{
+    margin-top: 168px;
+    margin-left: -113px;
+
+ }
+
+ #tkt{
+    margin-left: 365px;
+margin-top: 48px;
+ }
+
+
+ #prms{
+    margin-left: 65px;
+    margin-top: -60px;
+ }
+
+ #srch,
+ #cht-bx4{
+     position: absolute;
+     z-index: 1;
+ }
+
+ #srch{
+    margin-top: 68px;
+    margin-left: -40px;
+}
+ 
+
+ #cht-bx4{
+    margin-top: 164px;
+    margin-left: -110px;
+ }
+ /* end of how does it work */
+ .pricing-container{
+    margin-top: 175px;
  }
  /* end of main */
