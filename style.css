@@ -51,6 +51,10 @@
      line-height: 24px;
      color: #FFFFFF;
  }
+ .nav-btn:hover{
+     color: black;
+     background-color: #689EFF;
+ }
 
  /* end of navbar */
 
@@ -106,6 +110,10 @@
      font-size: 16px;
      line-height: 24px;
      color: #FFFFFF;
+ }
+ .intro-btn:hover{
+    color: #070E27;
+    background-color: #FFFFFF;
  }
 
  /* end of hero */
@@ -231,7 +239,9 @@
      border: 1px solid #162044;
      border-radius: 16px;
  }
-
+.wraper:hover{
+    box-shadow: 0 0 11px rgba(126, 139, 182, 1); 
+}
  .menu-1, .menu-2 {
      display: flex;
      flex-direction: column;
@@ -284,13 +294,11 @@
  }
 
  .cta-ready-tittle {
-     /* Subheding Large */
      font-family: Sora;
      font-style: normal;
      font-weight: 500;
      font-size: 20px;
      line-height: 32px;
-     /* identical to box height, or 160% */
      text-align: center;
      letter-spacing: 0.02em;
      text-transform: uppercase;
@@ -305,10 +313,8 @@
      font-weight: 600;
      font-size: 36px;
      line-height: 40px;
-     /* identical to box height, or 111% */
      text-align: center;
      letter-spacing: -0.03em;
-     /* White */
      color: #FFFFFF;
  }
 
@@ -324,13 +330,17 @@
      gap: 10px;
  }
 
+.cta-ready-btn:hover{
+    background-color: #081131;
+}
+
+
  .btn-txt {
      font-family: Sora;
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
      line-height: 24px;
-     /* identical to box height, or 150% */
      color: #FFFFFF;
  }
 
@@ -537,6 +547,8 @@ border-radius: 16px;
      margin-left: 48px;
      margin-top: 48px;
  }
+
+ 
 .dollars{
     border-bottom: 2px solid #131D3E;
 width: 304px;
@@ -608,6 +620,11 @@ margin-top: 12px;
  .pricing-item2{
     margin-top: -80px;
 }
+.pricing-item1:hover,
+.pricing-item2:hover,
+.pricing-item3:hover{
+    box-shadow: 0 0 11px rgba(126, 139, 182, 1); 
+ }
 .pricing-btn {
     width: 178px;
     height: 64px;
@@ -620,6 +637,10 @@ margin-top: 12px;
     gap: 10px;
     font-family: Sora;
 }
+.pricing-btn:hover{
+    background-color: #162044;
+}
+
 
 .pricing-btn-txt {
     font-family: Sora;
@@ -694,6 +715,10 @@ color: #FFFFFF;
     align-items: center;
     gap: 10px;
     font-family: Sora;
+}
+
+.pricing-btn-cta:hover{
+    background-color: #162044;
 }
  /*  end of pricing cta*/
  /* end of main */
