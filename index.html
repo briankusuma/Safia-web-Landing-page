@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
   </head>
-  <body class="page">
-    <div class="wrapper">
+  <body class="page" id="page"  >
+    <div class="wrapper" >
     <!-- header -->
     <header>
       <nav>
@@ -182,14 +182,14 @@
 
             <div class="hdwi-img">
               <img src="img/how-it-works/hiw-1/clock-hwi-1.png" alt="clock" id="clc">
-              <img src="img/how-it-works/hiw-1/Rectangle-hwi-1.png" alt="rectangle" id="rect">
+              <img src="img/how-it-works/hiw-1/Rectangle-hwi-1.png" alt="rectangle" id="rect" class="rect-1">
               <img src="img/how-it-works/hiw-1/chat2-hwi1.png" alt="cht-bx2" id="cht-bx2">
               <img src="img/how-it-works/hiw-1/chat-hwi-1.png" alt="cht-bx" id="cht-bx">
             </div>
 
             <div class="hdwi-item-text">
-              <h3 class="hdwi-item-tittle">How does it work?</h3>
-              <p class="hdwi-item-intro">Our landing page template works on all devices,
+              <h3 class="hdwi-item-tittle" id="hdwi-item-tittle-1">How does it work?</h3>
+              <p class="hdwi-item-intro" id="hdwi-item-intro-1">Our landing page template works on all devices,
                  so you only have to set it up once,
                   and get beautiful results.</p>
             </div>
@@ -199,14 +199,14 @@
           <div class="hdwi-item2">
             
             <div class="hdwi-item-text2">
-              <h3 class="hdwi-item-tittle">How does it work?</h3>
-              <p class="hdwi-item-intro">Our landing page template works on all devices,
+              <h3 class="hdwi-item-tittle" id="hdwi-item-tittle-2">How does it work?</h3>
+              <p class="hdwi-item-intro" id="hdwi-item-intro-2">Our landing page template works on all devices,
                  so you only have to set it up once,
                   and get beautiful results.</p>
             </div>
 
             <div class="hdwi-img">
-              <img src="img/how-it-works/hiw-1/Rectangle-hwi-1.png" alt="rectangle" id="rect">
+              <img src="img/how-it-works/hiw-1/Rectangle-hwi-1.png" alt="rectangle" id="rect" class="rect-2">
               <img src="img/how-it-works/hiw-2/featers-hwi-2.png" alt="featers-icon" id="ftr">
               <img src="img/how-it-works/hiw-2/tiket-hwi-2.png" alt="tiket-icon" id="tkt">
               <img src="img/how-it-works/hiw-2/params-hwi-2.png" alt="parameter" id="prms">
@@ -219,14 +219,14 @@
           <div class="hdwi-item3">
 
             <div class="hdwi-img">
-              <img src="img/how-it-works/hiw-1/Rectangle-hwi-1.png" alt="rectangle" id="rect">
+              <img src="img/how-it-works/hiw-1/Rectangle-hwi-1.png" alt="rectangle" id="rect" class="rect-3">
               <img src="img/how-it-works/hiw-3/search-hwi-3.png" alt="search" id="srch">
               <img src="img/how-it-works/hiw-3/chat-hwi-3.png" alt="chat-bx4" id="cht-bx4">
             </div>
 
             <div class="hdwi-item-text">
-              <h3 class="hdwi-item-tittle">How does it work?</h3>
-              <p class="hdwi-item-intro">Our landing page template works on all devices,
+              <h3 class="hdwi-item-tittle" id="hdwi-item-tittle-3">How does it work?</h3>
+              <p class="hdwi-item-intro" id="hdwi-item-intro-3">Our landing page template works on all devices,
                  so you only have to set it up once,
                   and get beautiful results.</p>
             </div>
@@ -279,7 +279,7 @@
   
   
                 </div>
-                <button class="pricing-btn">
+                <button class="pricing-btn" id="prc-btn-1">
                   <p class="pricing-btn-txt">Get Started</p>
                   <img src="icon/icons/arrow-btn.png" alt="arrow" id="pricing-arrow-btn">
                 </button>
@@ -320,7 +320,7 @@
   
   
                 </div>
-                <button class="pricing-btn">
+                <button class="pricing-btn" id="prc-btn-2">
                   <p class="pricing-btn-txt">Get Started</p>
                   <img src="icon/icons/arrow-btn.png" alt="arrow" id="pricing-arrow-btn">
                 </button>
@@ -361,7 +361,7 @@
   
   
                 </div>
-                <button class="pricing-btn">
+                <button class="pricing-btn" id="prc-btn-3">
                   <p class="pricing-btn-txt">Get Started</p>
                   <img src="icon/icons/arrow-btn.png" alt="arrow" id="pricing-arrow-btn">
                 </button>
@@ -381,7 +381,7 @@
             <div class="pricing-cta-intro-tittle">Ready to Start?</div>
             <div class="pricing-cta-intro-text">Start your free trial today!</div>
           </div>
-          <button class="pricing-btn-cta">
+          <button class="pricing-btn-cta" >
             <p class="pricing-btn-txt">Get Started</p>
             <img src="icon/icons/arrow-btn.png" alt="arrow" id="pricing-arrow-btn">
           </button>
@@ -408,6 +408,10 @@
       </div>
     </footer>
     <!-- end of footer -->
+    
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
